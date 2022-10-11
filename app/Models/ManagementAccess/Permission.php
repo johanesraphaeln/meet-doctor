@@ -29,7 +29,7 @@ class Permission extends Model
         'deleted_at',
     ];
 
-    // one to one relationship
+    // one to many relationship
     public function permission_role()
     {
         // 2 parameters (path model, field foreign key)
